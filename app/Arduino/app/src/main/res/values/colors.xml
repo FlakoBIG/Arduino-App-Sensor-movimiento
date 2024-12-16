@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fondo_claro">#F5F5F5</color>
+    <color name="color_negro">#000000</color>
+    <color name="amarillo">#F0ED06</color>
+    <color name="color_blanco">#FFFFFF</color>
+    <color name="color_primario">#41BC46</color>
+    <color name="actualizar">#39DCCE</color>
+    <color name="color_secundario">#03A9F4</color>
+    <color name="fondo">#999999</color>
+    <color name="gris">#D1D1D1</color>
+
+</resources>

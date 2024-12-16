@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <TextView
+        android:id="@+id/titulo_grafica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graficas de datos"
+        android:textSize="20sp"
+        android:textColor="@color/color_negro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Field 1 -->
+    <WebView
+        android:id="@+id/webview_grafica_field1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/titulo_grafica"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp" />
+
+    <!--   Field 2 -->
+    <WebView
+        android:id="@+id/webview_grafica_field2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/webview_grafica_field1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp" />
+</RelativeLayout>

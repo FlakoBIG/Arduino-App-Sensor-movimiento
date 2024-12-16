@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control de Luz"
+        android:textSize="24sp"
+        android:textColor="@color/color_negro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/icono_luz"
+        android:layout_width="74dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/titulo_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Estado de la luz"
+        android:src="@drawable/luzoff" />
+
+    <ImageView
+        android:id="@+id/icono_casa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/icono_luz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Icono de casa"
+        android:src="@drawable/casa" />
+
+    <Button
+        android:id="@+id/boton_encender"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icono_casa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:backgroundTint="@color/color_primario"
+        android:text="Encender luz"
+        android:textColor="@color/color_blanco"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/boton_apagar"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton_encender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/color_secundario"
+        android:text="Apagar luz"
+        android:textColor="@color/color_blanco"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/boton_grafica"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton_apagar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/color_secundario"
+        android:text="Ver gráfica"
+        android:textColor="@color/color_blanco"
+        android:textSize="18sp" />
+</RelativeLayout>

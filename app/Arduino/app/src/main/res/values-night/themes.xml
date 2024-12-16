@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Tema oscuro personalizado -->
+    <style name="Theme.Arduino" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Fondo oscuro -->
+        <item name="android:windowBackground">@color/fondo_claro</item>
+
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/color_primario</item>
+        <item name="colorPrimaryDark">@color/color_negro</item>
+        <item name="colorAccent">@color/amarillo</item>
+
+        <!-- Colores de texto -->
+        <item name="android:textColor">@color/color_blanco</item>
+
+        <!-- Barra de estado oscura -->
+        <item name="android:statusBarColor">@color/color_negro</item>
+
+        <!-- Otros ajustes visuales -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item> <!-- Desactiva ActionBar si no la necesitas -->
+    </style>
+
+</resources>
